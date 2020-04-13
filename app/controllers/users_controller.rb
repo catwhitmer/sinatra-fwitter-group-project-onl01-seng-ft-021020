@@ -31,7 +31,7 @@ class UsersController < ApplicationController
 
       redirect to "/users/#{@user.id}"
     else
-      redirect to '/create_user'
+      redirect to '/signup'
     end
   end
   
