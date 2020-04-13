@@ -1,0 +1,9 @@
+<h1>All Tweets</h1>
+<br>
+<% @tweets.each do |tweet| %>
+  <h3><a href="/tweets/<%= tweet.id %>"> <%= tweet.content %> </a></h3>
+<br>
+<% end %> 
+<br>
+<br>
+  <a href="/tweets/new">Create a New Game</a>
