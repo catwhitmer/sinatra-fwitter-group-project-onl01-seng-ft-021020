@@ -1,7 +1,7 @@
 class UsersController < ApplicationController
 
   get '/create_user' do 
-    erb :'/users/create_user'
+    erb :'/users/signup'
   end
   
   get '/login' do
